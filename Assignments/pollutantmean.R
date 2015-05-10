@@ -20,7 +20,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332)
     
   lstFileName <- list.files(path = directory, full.names = TRUE)
   
-  ##>>>>> First Slution, it doesn't work !!!
+  ##>>>>> First solution, it doesn't work !!!
 #   totalMeans <- 0
 #   for(i in id)
 #   {
@@ -30,7 +30,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332)
 #   }
 #   totalMeans/length(id)
 
-  ##>>>>> Second Slution
+  ##>>>>> Second solution
   dataset <- data.frame()
   for (i in id) 
   {
