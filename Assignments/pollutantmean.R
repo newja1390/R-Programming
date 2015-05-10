@@ -20,7 +20,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332)
     
   lstFileName <- list.files(path = directory, full.names = TRUE)
   
-  ##>>>>> First Slution, it isn't work !!!
+  ##>>>>> First Slution, it doesn't work !!!
 #   totalMeans <- 0
 #   for(i in id)
 #   {
